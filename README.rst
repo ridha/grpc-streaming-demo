@@ -42,7 +42,7 @@ To start the server, simply run:
 
   go run server.go
 
-You can run this client using:
+You can run the client using:
 
 .. code-block:: bash
 
