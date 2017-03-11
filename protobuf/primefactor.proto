@@ -3,7 +3,14 @@ syntax = "proto3";
 option go_package = "protobuf";
 package primefactor;
 
+// Prime factors service definition.
 service Factors {
+  // We have a method called `PrimeFactors` which takes
+  // parameter called `Request` and returns the message `Response`
+
+  // The stream keyword is specified before both the request type and response
+  // type to make it as bidirectional streaming RPC method.
+
   rpc PrimeFactors (stream Request) returns (stream Response) {}
 }
 
