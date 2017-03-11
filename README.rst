@@ -15,7 +15,7 @@ By default, gRPC uses Protocol Buffers as the Interface Definition Language (IDL
 In this project, we'll implement a simple PrimeFactorService that returns a stream of the prime factors of the numbers passed to it
 in a request.
 I decided to make my gRPC server in Go and client in Python.
-The cient program will read from stdin and will immediately push it to the service.
+The client program will read from stdin and will immediately push it to the service.
 
 Generate gRPC code for server and client
 ----------------------------------------
